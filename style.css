@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.display {
+  display: inline-block;
+  height: 50%;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 5%;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-image: url(images/Tiranga.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  padding-top: 22%;
+  word-wrap: break-word;
+  font-size: 50px;
+}
