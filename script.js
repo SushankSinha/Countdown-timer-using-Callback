@@ -1,38 +1,38 @@
 
 
 setTimeout(function first(){
-    let x = "10";
-    document.getElementById('display').innerHTML = x;
+    // 
+    document.getElementById('display').innerHTML = 10;
     setTimeout(function second(){
-        let x = "9";
-        document.getElementById('display').innerHTML = x;
+    
+        document.getElementById('display').innerHTML = 9;
         setTimeout(function third(){
-            let x = "8";
-            document.getElementById('display').innerHTML = x;
+        
+            document.getElementById('display').innerHTML = 8;
             setTimeout(function fourth(){
-                let x = "7";
-                document.getElementById('display').innerHTML = x;
+            
+                document.getElementById('display').innerHTML = 7;
                 setTimeout(function fifth(){
-                    let x = "6";
-                    document.getElementById('display').innerHTML = x;
+                
+                    document.getElementById('display').innerHTML = 6
                     setTimeout(function sixth(){
-                        let x = "5";
-                        document.getElementById('display').innerHTML = x;
+                    
+                        document.getElementById('display').innerHTML = 5;
                         setTimeout(function seventh(){
-                            let x = "4";
-                            document.getElementById('display').innerHTML = x;
+                        
+                            document.getElementById('display').innerHTML = 4;
                             setTimeout(function eigth(){
-                                let x = "3";
-                                document.getElementById('display').innerHTML = x;
+                            
+                                document.getElementById('display').innerHTML = 3;
                                 setTimeout(function ninth(){
-                                    let x = "2";
-                                    document.getElementById('display').innerHTML = x;
+                                
+                                    document.getElementById('display').innerHTML = 2;
                                     setTimeout(function tenth(){
-                                        let x = "1";
-                                        document.getElementById('display').innerHTML = x;
+                                    
+                                        document.getElementById('display').innerHTML = 1;
                                         setTimeout(function message(){
-                                            let x = "Happy Independence Day!";
-                                            document.getElementById('display').innerHTML = x;
+                                            
+                                            document.getElementById('display').innerHTML = "Happy Independence Day!";
                                             
                                         }, 1000)
                                     }, 1000)
